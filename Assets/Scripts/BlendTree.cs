@@ -21,6 +21,6 @@ public class BlendTree : MonoBehaviour
 			speed = Mathf.Lerp(speed, 0f, Time.deltaTime * 10f);
 		}
 		puppy2Animator.SetFloat("Move", speed);
-		transform.position += new Vector3(Time.deltaTime * 0.3f * speed, 0f);
+		transform.position += new Vector3(Time.deltaTime * 0.32f * speed, 0f);
 	}
 }
